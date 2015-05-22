@@ -1,0 +1,12 @@
+h1 {
+  color: black;
+}
+
+table tr td img {
+  width: 100px;
+  margin: 0 auto;
+}
+
+.save {
+  float: right;
+}

@@ -9,6 +9,58 @@
     <link rel="stylesheet" href="/css/main.css">
   </head>
   <body>
-    <h1>Hello World!</h1>
+    <div class="container col-sm-6 col-sm-offset-3">
+      <h1>Pet Store</h1>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Photo</th>
+            <th>Name</th>
+            <th>Breed/Species</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <div>
+                <img src="/img/Giggles.jpg" class="img-thumbnail" alt="Giggles"></td>
+              </div>
+            <td>Giggles</td>
+            <td>Cat</td>
+            <td><a class="btn btn-default" href="#" role="button">Get</a></td>
+          </tr>
+          <tr>
+            <td><img src="/img/Wiggles.jpg" class="img-thumbnail" alt="Wiggles"></td>
+            <td>Wiggles</td>
+            <td>Lizard</td>
+            <td><a class="btn btn-default" href="#" role="button">Get</a></td>
+          </tr>
+          <tr>
+            <td><img src="/img/Shiggles.jpg" class="img-thumbnail" alt="Shiggles"></td>
+            <td>Shiggles</td>
+            <td>Bird</td>
+            <td><a class="btn btn-default" href="#" role="button">Get</a></td>
+          </tr>
+        </tbody>
+      </table>
+    <hr>
+      <h3>Add Pet</h3>
+      <form>
+        <div class="form-group">
+          <label for="photo">Photo</label>
+          <input type="file" id="photo">
+        </div>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" id="name">
+        </div>
+        <div class="form-group">
+          <label for="breed">Breed/Species</label>
+          <input type="text" class="form-control" id="breed">
+        </div>
+        <button type="submit" class="btn btn-default save">Save</button>
+      </form>
+    </div> <!--end form container-->
   </body>
 </html>
